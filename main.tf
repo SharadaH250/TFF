@@ -7,7 +7,7 @@ resource "aws_instance" "instance-1" {
     instance_type = "t2.micro"
     count = "1"
     security_groups = ["default"]
-    key_name = "test-MD"
+    key_name = "kiran"
     tags = {
       Name = "grafan"
     }
@@ -18,7 +18,7 @@ resource "aws_instance" "instance-2" {
     instance_type = "t2.micro"
     count = "1"
     security_groups = ["default"]
-    key_name = "test-MD"
+    key_name = "kiran"
     tags = {
       Name = "Node-port"
     }
